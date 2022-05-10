@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GDSC_2022_HTML</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div class="main">
+      <div
+        style="
+          font-family: 'NEXON Lv2 Gothic Bold';
+          display: flex;
+          flex-direction: column;
+          row-gap: 20px;
+        "
+      >
+        <h1 style="text-align: center; font-size: 50px">
+          <a href="./index.html">GDSC 2022 HTML</a>
+        </h1>
+        <ol>
+          <li><a href="./1.html">1차시</a></li>
+          <li><a href="./index.html">2차시</a></li>
+          <li><a href="">3차시</a></li>
+        </ol>
+      </div>
+
+      <section class="main-text">
+        <h1>이건 h1이에요</h1>
+        <h3>h3이 더 작구나</h3>
+        <div>이건 div</div>
+        <div>이건 div</div>
+        <p>p는 여백이 있다</p>
+        <p>p는 여백이 있다</p>
+        <span>span은 inline 이네</span>
+        <span>span은 inline 이네</span>
+        <br />
+        <table>
+          <caption class="table-name">
+            시간표 (2022-1)
+          </caption>
+          <caption class="table-logo">
+            <span>Lectured by</span>
+            <a href="https://www.syu.ac.kr/">
+              <img
+                class="table-logo-image"
+                style="height: 70px"
+                src="https://blog.kakaocdn.net/dn/kJSrs/btqxX8siuPH/GK7dJOsqInISAMUzn28tuk/img.jpg"
+                alt="삼육대학교 로고"
+              />
+            </a>
+          </caption>
+          <tr>
+            <th></th>
+            <th>월</th>
+            <th>화</th>
+            <th>수</th>
+            <th>목</th>
+            <th>금</th>
+          </tr>
+          <tr>
+            <td>09:00~10:00</td>
+            <td rowspan="2" class="c-lang">컴퓨터 프로그래밍</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>10:00~11:00</td>
+            <!-- <td></td> rowspan 공백 -->
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>11:00~12:00</td>
+            <td></td>
+            <td rowspan="2" class="java">객체지향 프로그래밍 I</td>
+            <td class="algorithm">컴퓨터 알고리즘</td>
+            <td></td>
+            <td rowspan="3" class="calculus">미적분학</td>
+          </tr>
+          <tr>
+            <td>12:00~13:00</td>
+            <td rowspan="2" class="algorithm">컴퓨터 알고리즘</td>
+            <!-- <td></td> rowspan 공백  -->
+            <td class="java">객체지향 프로그래밍 I</td>
+            <td></td>
+            <!-- <td></td> rowspan 공백  -->
+          </tr>
+          <tr>
+            <td>13:00~14:00</td>
+            <!-- <td></td> rowspan 공백  -->
+            <td></td>
+            <td class="multi-media">멀티미디어</td>
+            <td></td>
+            <!-- <td></td> rowspan 공백  -->
+          </tr>
+          <tr>
+            <td>14:00~15:00</td>
+            <td rowspan="2" class="multi-media">멀티미디어</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>15:00~16:00</td>
+            <!-- <td></td> rowspan 공백  -->
+            <td rowspan="2" class="c-lang">컴퓨터 프로그래밍</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>16:00~17:00</td>
+            <td></td>
+            <!-- <td></td> rowspan 공백  -->
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </table>
+        <div class="logo"></div>
+      </section>
+    </div>
+    <footer>
+      <p>Leeyoonsu</p>
+      <a href="https://github.com/leey00nsu">Leeyoonsu's Github</a>
+    </footer>
+  </body>
+</html>

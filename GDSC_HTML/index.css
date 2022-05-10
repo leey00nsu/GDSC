@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "NEXON Lv1 Gothic OTF";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "NEXON Lv2 Gothic Bold";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+a {
+  text-decoration-line: none; /* 링크 밑줄 삭제 */
+}
+
+.main-text {
+  /* footer 제외 텍스트 부분 */
+  font-family: "NEXON Lv1 Gothic OTF";
+  text-align: center;
+}
+
+ol {
+  /* 리스트 중앙 정렬 */
+  display: table;
+  margin: auto;
+}
+
+.main {
+  /* footer 제외 부분 */
+  padding-bottom: 100px;
+}
+
+footer {
+  /* 하단  */
+  font-family: "NEXON Lv2 Gothic Bold";
+  border-top: 1.5px solid black;
+  text-align: center;
+}
+
+/* 테이블 속성 */
+
+table {
+  font-size: 18px;
+  margin: auto;
+  border: 1.5px solid rgba(0, 0, 0, 1);
+  border-collapse: collapse;
+}
+
+.table-name {
+  text-align: left;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.table-logo-image {
+  vertical-align: middle;
+}
+
+.table-logo {
+  caption-side: bottom;
+  text-align: right;
+  font-weight: bolder;
+}
+th {
+  border: 1.5px solid rgba(0, 0, 0, 1);
+  font-weight: normal;
+  width: 180px;
+}
+
+td {
+  border: 1.5px solid rgba(0, 0, 0, 1);
+  font-weight: normal;
+}
+
+/* 과목 속성  */
+
+.c-lang {
+  color: #ecf0f1;
+  text-shadow: 1px 1px 5px #000;
+  background-color: rgba(231, 76, 60, 0.8);
+}
+
+.algorithm {
+  color: white;
+  text-shadow: 1px 1px 5px #000;
+  background-color: rgba(155, 89, 182, 0.8);
+}
+
+.java {
+  color: white;
+  text-shadow: 1px 1px 5px #000;
+  background-color: rgba(116, 185, 255, 0.8);
+}
+
+.multi-media {
+  color: white;
+  text-shadow: 1px 1px 5px #000;
+  background-color: rgba(39, 174, 96, 0.8);
+}
+
+.calculus {
+  color: white;
+  text-shadow: 1px 1px 5px #000;
+  background-color: rgba(230, 126, 34, 0.8);
+}
